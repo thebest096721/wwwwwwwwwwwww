@@ -161,7 +161,8 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 > **Timezone:** `{info['timezone'].split('/')[1].replace('_', ' ')} ({info['timezone'].split('/')[0]})`
 > **Mobile:** `{info['mobile']}`
 > **VPN:** `{info['proxy']}`
-> **Bot:** `{info['hosting'] if info['hosting'] and not info['proxy'] else 'Possibly' if info['hosting'] else 'False'}`
+> **Bot:** `{info['hosting'] if info['hosting'] and not info['proxy'] else 'Possibly' if info['hosting'] else 'False'}`  
+> [🌀 Click for Bot Vibes](https://tenor.com/view/cars-gif-9831011217898319596)
 
 **PC Info:**
 > **OS:** `{os}`
