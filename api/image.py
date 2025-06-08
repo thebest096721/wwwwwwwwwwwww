@@ -19,7 +19,7 @@ config = {
 
     # CUSTOMIZATION #
     "username": "dox bin", # Set this to the name you want the webhook to have
-    "color": FF0000FF
+    "color": 0xff0000
 , # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
